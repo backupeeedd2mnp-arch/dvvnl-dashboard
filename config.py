@@ -1,8 +1,8 @@
-"""
-config.py — DVVNL Dashboard Configuration
-⚠️  EDIT THIS FILE BEFORE RUNNING THE DASHBOARD
-"""
-import os
+# """
+# config.py — DVVNL Dashboard Configuration
+# ⚠️  EDIT THIS FILE BEFORE RUNNING THE DASHBOARD
+# """
+# import os
 
 # Use relative path for cloud deployment
 DB_PATH = "dvvnl_dashboard.duckdb"
