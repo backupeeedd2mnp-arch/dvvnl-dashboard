@@ -2,13 +2,12 @@
 # config.py — DVVNL Dashboard Configuration
 # ⚠️  EDIT THIS FILE BEFORE RUNNING THE DASHBOARD
 # """
-# import os
+import os
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dvvnl_dashboard.duckdb")
 
 # Use relative path for cloud deployment
-DB_PATH = "dvvnl_dashboard.duckdb"
 
 # ── DATABASE PATH ─────────────────────────────────────────────────────────────
-# DB_PATH = r"C:\Users\ksas2\dvvnl.duckdb"
 
 # ── BILLING PERIOD ────────────────────────────────────────────────────────────
 APRIL_START = "2026-04-01"
