@@ -5,7 +5,7 @@ config.py — DVVNL Dashboard Configuration
 import os
 
 # Use relative path for cloud deployment
-DB_PATH = os.path.join(os.path.dirname(__file__), "dvvnl_dashboard.duckdb")
+DB_PATH = "dvvnl_dashboard.duckdb"
 
 # ── DATABASE PATH ─────────────────────────────────────────────────────────────
 # DB_PATH = r"C:\Users\ksas2\dvvnl.duckdb"
